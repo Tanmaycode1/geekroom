@@ -4,26 +4,56 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
 <url>
-  <loc>https://codekshetra.vercel.app/</loc>
-  <lastmod>2023-12-27T19:34:53+00:00</lastmod>
+  <loc>https://www.geekroom.in/</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://codekshetra.vercel.app/mentors.html</loc>
-  <lastmod>2023-12-27T19:34:53+00:00</lastmod>
+  <loc>https://www.geekroom.in/codekshetra.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codekshetra.vercel.app/our-team.html</loc>
-  <lastmod>2023-12-27T19:34:53+00:00</lastmod>
+  <loc>https://www.geekroom.in/Geek-Room-Hackathons.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codekshetra.vercel.app/code-of-conduct.html</loc>
-  <lastmod>2023-12-28T21:34:53+00:00</lastmod>
+  <loc>https://www.geekroom.in/Geek-Room-Events.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.geekroom.in/PhotoFolio/index.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.geekroom.in/mentors.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.geekroom.in/our-team.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.geekroom.in/become-a-sponsor.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.geekroom.in/code-of-conduct.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.geekroom.in/index.html</loc>
+  <lastmod>2024-01-06T22:47:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>

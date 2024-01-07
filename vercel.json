@@ -7,8 +7,8 @@
             "statusCode": 301
         },
         {
-            "source": "/photofolio",
-            "destination": "/photofolio/",
+            "source": "/PhotoFolio",
+            "destination": "/PhotoFolio/",
             "statusCode": 301
         }
     ]

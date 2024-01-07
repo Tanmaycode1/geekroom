@@ -1,4 +1,10 @@
 {
     "cleanUrls": true,
-    "trailingSlash": true
+    "redirects": [
+        {
+            "source": "/codekshetra",
+            "destination": "/codekshetra/",
+            "statusCode": 301
+        }
+    ]
 }

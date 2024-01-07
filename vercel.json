@@ -1,4 +1,15 @@
 {
     "cleanUrls": true,
-    "trailingSlash": true
+    "redirects": [
+        {
+            "source": "/codekshetra",
+            "destination": "/codekshetra/",
+            "statusCode": 301
+        },
+        {
+            "source": "/photofolio",
+            "destination": "/photofolio/",
+            "statusCode": 301
+        }
+    ]
 }

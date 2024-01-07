@@ -1,15 +1,3 @@
 {
-    "cleanUrls": true,
-    "redirects": [
-        {
-            "source": "/codekshetra",
-            "destination": "/codekshetra/",
-            "statusCode": 301
-        },
-        {
-            "source": "/PhotoFolio",
-            "destination": "/PhotoFolio/",
-            "statusCode": 301
-        }
-    ]
+    "cleanUrls": true
 }

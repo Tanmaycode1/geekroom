@@ -72,6 +72,15 @@
         }
     },
     {
+        "name": "Akshay Kumar Sharma",
+        "image": "assets/img/mentors/akshay_kumar_sharma.jpeg",
+        "description": "",
+        "social": {
+            "linkedin": "vansh-kapoor",
+            "insta": ""
+        }
+    },
+    {
         "name": "Ekansh Mittal",
         "image": "assets/img/mentors/ekansh_mittal.jpeg",
         "description": "",

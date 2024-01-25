@@ -95,7 +95,7 @@ function renderJudges(start, end) {
 // ---------------------- Mentors Section ----------------------
 const mentorsContainer = document.getElementById('mentors-container');
 const loadMoreMentorsBtn = document.getElementById('loadMoreMentorsBtn');
-const mentorsPerLoad = 30;
+const mentorsPerLoad = 35;
 let currentMentors = 0;
 let mentorsData = null;
 // Fetch mentors data from JSON file
@@ -113,7 +113,7 @@ async function fetchMentorsData() {
 }
 // Show more mentors on button click
 function showMoreMentors() {
-
+    loadMoreMentorsBtn.style.display = 'none';
     if (!mentorsData) {
         fetchMentorsData().then(() => showMoreMentors());
         return;

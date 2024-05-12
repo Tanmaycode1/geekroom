@@ -1,0 +1,49 @@
+.outerCircle {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #f15a22, #00acb4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 25px 10px 25px;
+}
+.innerCircle {
+  height: 9.7vw;
+  width: 9.7vw;
+  border-radius: 50%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .outerCircle {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+
+  .innerCircle {
+    height: 55px;
+    width: 55px;
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .outerCircle {
+    height: 13vh;
+    width: 13vh;
+    /* margin: 2vh 5vw; */
+  }
+
+  .innerCircle {
+    height: 12.5vh;
+    width: 12.5vh;
+    font-size: 2.5vw;
+  }
+}

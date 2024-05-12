@@ -1,0 +1,37 @@
+[
+    {
+      "heading": "Sunset over the Mountains",
+      "description": "A breathtaking view of the sun setting behind a range of majestic mountains.",
+      "image_url": "https://example.com/sunset_mountains.jpg"
+    },
+    {
+      "heading": "City Skyline at Night",
+      "description": "The glittering lights of a city skyline against the night sky, showcasing urban beauty.",
+      "image_url": "https://example.com/city_skyline_night.jpg"
+    },
+    {
+      "heading": "Flowers in Bloom",
+      "description": "Vibrant flowers in full bloom, adding color and joy to the surrounding landscape.",
+      "image_url": "https://example.com/flowers_bloom.jpg"
+    },
+    {
+      "heading": "Majestic Waterfall",
+      "description": "The powerful rush of water cascading down a rocky cliff, creating a mesmerizing waterfall.",
+      "image_url": "https://example.com/majestic_waterfall.jpg"
+    },
+    {
+      "heading": "Starry Night Sky",
+      "description": "A clear night sky filled with thousands of twinkling stars, creating a serene and magical atmosphere.",
+      "image_url": "https://example.com/starry_night_sky.jpg"
+    },
+    {
+      "heading": "Golden Wheat Fields",
+      "description": "Endless fields of golden wheat swaying gently in the breeze under the warm sunlight.",
+      "image_url": "https://example.com/golden_wheat_fields.jpg"
+    },
+    {
+      "heading": "Colorful Autumn Leaves",
+      "description": "A stunning display of vibrant autumn leaves, painting the landscape with hues of red, orange, and yellow.",
+      "image_url": "https://example.com/colorful_autumn_leaves.jpg"
+    }
+]

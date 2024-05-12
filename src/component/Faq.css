@@ -1,0 +1,44 @@
+.faq{
+    width: 70%;
+    margin: auto;
+}
+.dark{
+    --bs-accordion-bg: black;
+    --bs-accordion-color: white;
+    --bs-accordion-border-width: 0px;
+    --bs-accordion-btn-color: white;
+    
+        --bs-accordion-icon-color: white;
+        --bs-accordion-active-bg: black;
+        --bs-accordion-active-color: white;
+        --bs-accordion-btn-focus-box-shadow: none;
+    
+    
+          
+    }    
+.accordion-button::after {
+    
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+    } 
+.accordion-button:not(.collapsed)::after {
+    
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
+}
+ 
+.item{
+    margin: 1rem;
+}
+.accordion-header{
+    margin-bottom: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    background-color:#141516 ;
+}
+
+@media screen and (max-width: 480px){
+    .faq{
+        width:90%;
+    }
+}

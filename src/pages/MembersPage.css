@@ -1,0 +1,74 @@
+
+.membersPage{
+   font: 300 1rem Inter, sans-serif;
+   overflow: hidden;
+}
+
+.membersPage header{
+   margin: 1rem 0 4rem 0;
+}
+
+.membersPage header h1{
+   font:100 4rem Inter, sans-serif;
+}
+
+.membersPage header p{
+   font-size: 1.5rem;
+}
+
+.co-founders-wrap>h2,
+.department-wrap>h2{
+   text-align: center;
+   font: 100 2.4rem Inter, sans-serif;
+   padding: 1.5rem 0 1rem;
+}
+.department-wrap>h2{
+   padding: 3.5rem 0 3rem;
+}
+
+.co-founders{
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+   flex-wrap: wrap;
+}
+
+.department-wrap{
+   max-width: 1300px;
+   margin: 0 auto 5rem;
+}
+
+.departments{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.department{
+   padding: 0 7px 2.4rem;
+}
+.department>h2{
+   font: 100 2rem Inter, sans-serif;
+   padding-left: 7px;
+}
+.members{
+   width: 100%;
+   max-width: 640px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 14px;
+}
+@media screen and (max-width: 1200px){
+   .members{
+      justify-content: center;
+   }
+   .department>h2{
+      text-align: center;
+   }
+   
+}
+/* @media (min-width: 700px) {
+   .bgsphere {
+     width: 200px;
+   }
+ } */

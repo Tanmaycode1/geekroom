@@ -1,0 +1,38 @@
+.MySection {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 801px;
+  width: 70%;
+  height: auto;
+  background-color: transparent;
+}
+
+.headTag {
+  text-align: center;
+  font-size: 3vw;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.CircleSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .headTag {
+    font-size: 6vw;
+  }
+}

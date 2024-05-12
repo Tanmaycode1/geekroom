@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "eventName": "Geek Insights",
+        "date": "1 February 2024.",
+        "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains and their scope in the field of technology..",
+        "image_url": "img1.png"
+    },
+    {
+        "id": 2,
+        "eventName": "Code Kshetra",
+        "date": "5-6 February 2024.",
+        "description": "An enthralling hackathon with over 3000+ nation-wide participants , Code Kshetra was organised jointly by Geek Room and Jims Sec-5 , Rohini from ",
+        "image_url": "kshetra.jpg"
+    },
+    {
+        "id": 3,
+        "event": "Algohunt",
+        "date": " 1 February 2024.",
+        "description": "A treasure hunt-styled competitive problem solving event , Algohunt was jointly organised by Geek Room and IEEE MSIT on  ",
+        "image_url": "algo.jpg"
+    },
+    {
+        "id": 4,
+        "eventName": "Techminds",
+        "date": "15-16 March 2024",
+        "description": "An exhuberant hackathon with a massive 5,00,000+ prizepool , Techminds Hackathon was jointly conducted by Geek Room and IITM , Janakpuri from .",
+        "image_url": "techminds.jpg"
+    },
+    {
+        "id": 5,
+        "eventName": "ESP Camp Rover Design ",
+        "date": "24 november 2023",
+        "description": "An informational event regarding rover design , ESP Camp Rover Design was organized jointly by E-Yantra  Geek Room and IEEE RAS MSIT .",
+        "image_url": "esp.jpg"
+    },
+    {
+        "id": 6,
+        "eventName": "Cupid AI",
+        "date": "31 January - 1 February 2024",
+        "description": "A fun event with an AI-based blind dating model and concept , Cupid AI was conducted by Geek Room from  during 'Avensis'.",
+        "image_url": "cupid.jpg"
+    },
+    {
+        "id": 7,
+        "eventName": "Hackavensis",
+        "date": "1 February 2024",
+        "description": "A 48-hour hackathon organised by Geek Room with over 300+ participants from 31 January - 1 February 2024 during the annual technical fest of MSIT 'Avensis'.",
+        "image_url": "hackavensis.jpg"
+    },
+    {
+        "id": 8,
+        "eventName": "Hackathon 101",
+        "date": "9 December 2023",
+        "description": "An informative session on the Beginner's Guide to Hackathons was held on 9 December 2023. The session was conducted by the Geek Room core which boast of many members of hackathon winning teams.",
+        "image_url": "101.jpg"
+    }
+]

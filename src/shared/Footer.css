@@ -1,0 +1,42 @@
+body{
+   font-family: Gilroy-UltraLight, sans-serif;
+   color: white;
+}
+
+.heading{
+    font-family: Inter, sans-serif;
+    font-weight: lighter;
+}
+
+.footer-link {
+    font-family: Inter, sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none; 
+    opacity: .80;
+  }
+
+.main {
+    position: relative;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/Monochromatic\ -\ White.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.05; 
+    z-index: -1;
+}
+
+.footer {
+    background-color: rgba(203, 202, 202, 0.062); /* Adjust the last value (alpha) to change opacity */
+  }
+
+
+

@@ -29,7 +29,7 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 100px;
     line-height: 90px;
-    font-family: Gilroy-UltraLight;
+    font-family: Nunito Sans;
     /* font-weight: 400; */
     letter-spacing: -2.56px;
     margin: auto;
@@ -296,7 +296,7 @@ p {
   text-align: left;
   font-size: var(--font-size-109xl);
   color: var(--color-white);
-  font-family: var(--font-gilroy-ultralight);
+  font-family: var(--font-Nunito Sans);
 }
 @media screen and (max-width: 1050px) {
   .geek-room {

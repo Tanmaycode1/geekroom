@@ -3,7 +3,7 @@ import './Faq.css'
 export default function Faq() {
   return (
     <div className='faq'>
-        <div className="section-heading " style={{    margin: '1rem'}}>
+        <div className="section-heading " style={{    margin: '1.75rem 1rem'}}>
           <p className="about-us ">Have a Question?</p>
           <div className="underline"></div>
         </div>

@@ -21,8 +21,6 @@ function App() {
       <Routes>
           <Route exact path="/team" element={<MembersPage/>} />
           <Route exact path="/about" element={<About/>} />
-          <Route exact path="/contact"  />
-          <Route exact path="/achievment"  />
           <Route exact path="/"  element={<Home/>}/>
           <Route exact path="/events"  element={<Event/>} />
       </Routes>

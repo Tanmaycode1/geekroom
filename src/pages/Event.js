@@ -26,7 +26,7 @@ export default function Event() {
               <p className="card-date text-danger">{detail.date}</p>
               <h5 className="card-title text-white">{detail.eventName}</h5>
               <p className="card-text text-white">{detail.description}</p>
-              <a href="#" className="btn btn-outline-danger button1" style={{marginTop:'20px'}}>Learn more <i class="fa fa-arrow-right"></i></a>
+           {/*---   <a href={detail.link} className="btn btn-outline-danger button1" style={{marginTop:'20px'}}>Learn more <i class="fa fa-arrow-right"></i></a>  --*/}
             </div>
           </div>
         </div>
@@ -39,3 +39,14 @@ export default function Event() {
     </>
   )
 }
+
+{/*--
+{
+  "id": 1,
+  "eventName": "Geek Insights",
+  "date": "1 February 2024.",
+  "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains and their scope in the field of technology..",
+  "image_url": "img1.png",
+  "link": " "
+
+},  */}

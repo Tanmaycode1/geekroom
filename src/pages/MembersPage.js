@@ -22,9 +22,9 @@ function MembersPage(){
          <div className="co-founders-wrap">
             <h2>Co-Founders</h2>
             <div className="co-founders">
-               <MemberCard name={'Manas Chopra'} title={'AI Head'} imageUrl={manas} linkedInUrl={'https://www.linkedin.com/in/themanas95826/ '} />
-               <MemberCard name={'Arnav Gupta'} title={'AI Head'} imageUrl={arnav} linkedInUrl={'https://www.linkedin.com/in/arnav-gupta-437a66256/ '} isRedTheme={0}/>
-               <MemberCard name={'Pratham Batra'} title={'AI Head'} imageUrl={pratham} linkedInUrl={'https://www.linkedin.com/in/pratham1908/ '} />
+               <MemberCard name={'Manas Chopra'}  imageUrl={manas} linkedInUrl={'https://www.linkedin.com/in/themanas95826/ '} />
+               <MemberCard name={'Arnav Gupta'}  imageUrl={arnav} linkedInUrl={'https://www.linkedin.com/in/arnav-gupta-437a66256/ '} isRedTheme={0}/>
+               <MemberCard name={'Pratham Batra'}  imageUrl={pratham} linkedInUrl={'https://www.linkedin.com/in/pratham1908/ '} />
             </div>
          </div>
 

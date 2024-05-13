@@ -11,7 +11,7 @@ p {
   border-radius: 16px;
   position: relative;
   width: 70%;
-  height: 345px;
+  height: 420px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -96,7 +96,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 48px;
+  gap: 28px;
   width: fit-content;
   box-sizing: border-box;
 }
@@ -152,6 +152,7 @@ p {
   width: 100%;
   box-sizing: border-box;
 }
+
 .frame {
   position: absolute;
   top: 272px;
@@ -182,11 +183,14 @@ p {
 }
 
 @media screen and (max-width: 870px) {
+
   .group-892 {
     display: none;
   }
   .group-3{
     width: 70%;
+    height: 345px;
+
   }
   .contact-form-details{
     width: 80%;
@@ -199,6 +203,7 @@ p {
 @media screen and (max-width: 480px){
   .group-3{
     width: 90%;
+    height: 345px;
   }
   .about-us{
     font-size: 25px;

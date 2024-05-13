@@ -5,7 +5,7 @@ const CircleComponent = ({ text }) => {
   return (
     <div className="outerCircle">
       <div className="innerCircle">
-        <span>{text}</span>
+        <span className="circleText">{text}</span>
       </div>
     </div>
   );

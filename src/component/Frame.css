@@ -61,7 +61,7 @@
 
 
 .about-us7 {
-  font-family: Gilroy-UltraLight, sans-serif;
+  font-family: Nunito Sans, sans-serif;
   margin: 0;
   position: relative;
   font-size: 1.5rem;
@@ -69,6 +69,10 @@
   text-decoration: none;
   color: aliceblue;
 
+}
+
+.about-us7:hover{
+  color: white;
 }
 
 .arrow-right-solid-1-icon2 {

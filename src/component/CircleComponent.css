@@ -21,29 +21,32 @@
 }
 
 @media screen and (max-width: 600px) {
+  .circleText{
+    font-size: 10px;
+  }
   .outerCircle {
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     margin: 5px;
   }
 
   .innerCircle {
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
     font-size: 4.5vw;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .outerCircle {
-    height: 13vh;
-    width: 13vh;
+    height: 19vh;
+    width: 19vh;
     /* margin: 2vh 5vw; */
   }
 
   .innerCircle {
-    height: 12.5vh;
-    width: 12.5vh;
+    height: 18.5vh;
+    width: 18.5vh;
     font-size: 2.5vw;
   }
 }

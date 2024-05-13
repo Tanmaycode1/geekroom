@@ -1,5 +1,5 @@
 body{
-   font-family: Gilroy-UltraLight, sans-serif;
+   font-family: Nunito Sans, sans-serif;
    color: white;
 }
 
@@ -14,6 +14,11 @@ body{
     color: white;
     text-decoration: none; 
     opacity: .80;
+  }
+
+  .footer-link:hover{
+    color: white;
+    text-decoration: none;
   }
 
 .main {

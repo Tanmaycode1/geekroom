@@ -1,5 +1,5 @@
 body {
-  font-family: Gilroy-UltraLight, sans-serif;
+  font-family: Nunito Sans, sans-serif;
   color: white;
   height: 100%;
   width: 100%;
@@ -146,6 +146,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
+    margin-top: 35px;
 }
 
 .center{

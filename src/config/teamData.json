@@ -1,26 +1,11 @@
 
-
-
 {
-   "Artificial Intelligence":[
+   
+   "Outreach":[
       {
-         "name": "Arnav Kohli",
-         
-         "imageUrl": "/arnav.png",
-         "linkedInUrl": "https://www.linkedin.com/in/arnav-kohli/"
-      },
-      {
-         "name": "Siddharth Verma",
-         
-         "imageUrl": "/sid.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/siddharth-verma-53981a256/"
-      }
-   ],
-   "Development":[
-      {
-         "name": "Aditya Singh",
-         "imageUrl": "/aditya.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/adiii11/ "
+         "name": " Akshay Kumar Sharma",
+         "imageUrl": "/akshay.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager "
       },
       {
          "name": "Tanmay Arora",
@@ -28,23 +13,12 @@
          "linkedInUrl": "https://www.linkedin.com/in/tanmaycode1/ "
       }
    ],
-   "DSA":[
+   
+   "Chapters":[
       {
          "name": "Mayank Mahajan",
          "imageUrl": "/mayank.jpg",
          "linkedInUrl": "https://www.linkedin.com/in/mayankpmahajan/ "
-      },
-      {
-         "name": "Vedant Nagwanshi",
-         "imageUrl": "/vedat.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/vedant-nagwanshi/ "
-      }
-   ],
-   "Emerging Technologies":[
-      {
-         "name": "Archit Kohli",
-         "imageUrl": "/archit.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/archit-kohli/"
       },
       {
          "name": "Harshita Gupta",
@@ -52,18 +26,70 @@
          "linkedInUrl": "https://www.linkedin.com/in/harshita-gupta-03b6b125b/ "
       }
    ],
-   "Event Management":[
+   
+   "Technical":[
       {
-         "name": "Rudra Pratap Dash",
-         "imageUrl": "/rudra.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267 "
+         "name": "Archit Kohli",
+         "imageUrl": "/archit.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/archit-kohli/"
       },
       {
-         "name": " Akshay Kumar Sharma",
-         "imageUrl": "/akshay.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager "
+         "name": "Arnav Kohli",
+         "imageUrl": "/arnav.png",
+         "linkedInUrl": "https://www.linkedin.com/in/arnav-kohli/"
+      },
+      {
+         "name": "Siddharth Verma",
+         "imageUrl": "/sid.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/siddharth-verma-53981a256/"
       }
    ],
+   
+   "Content":[
+      {
+         "name": "Saksham Verma",
+         "imageUrl": "/saksham.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/saksham-verma-a9390b256/ "
+      }
+   ],
+   "Event Management":[
+      {
+         "name": "Mayank Mahajan",
+         "imageUrl": "/mayank.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/mayankpmahajan/ "
+      },
+      {
+         "name": "Aditya Singh",
+         "imageUrl": "/aditya.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/adiii11/ "
+      }
+   ],
+   "HR": [
+      {
+         "name": "Tanmay Arora",
+         "imageUrl": "/tanmay.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/tanmaycode1/ "
+      },
+      {
+         "name": "Saksham Verma",
+         "imageUrl": "/saksham.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/saksham-verma-a9390b256/ "
+      }
+   ],
+
+   "Publicity":[
+      {
+         "name": "Suhani Nagpal",
+         "imageUrl": "/suhani.jpg",
+         "linkedInUrl": " https://www.linkedin.com/in/suhani-nagpal072/ "
+      },
+      {
+         "name": "Garima Gupta",
+         "imageUrl": "/garima.jpg",
+         "linkedInUrl": " https://www.linkedin.com/in/garima-gupta-724213253/ "
+      }
+   ],
+
    "PR & Sponsorship":[
       {
          "name": "Vibhor Aggrawal",
@@ -71,21 +97,17 @@
          "linkedInUrl": "https://www.linkedin.com/in/vibhor-aggarwal-726095189 "
       },
       {
-         "name": "Suhani Nagpal",
-         "imageUrl": "/suhani.jpg",
-         "linkedInUrl": " https://www.linkedin.com/in/suhani-nagpal072/ "
-      }
+         "name": "Vedant Nagwanshi",
+         "imageUrl": "/vedat.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/vedant-nagwanshi/ "
+      }      
    ],
-   "Publicity and Design":[
+
+   "Communinity Manager":[
       {
-         "name": "Saksham Verma",
-         "imageUrl": "/saksham.jpg",
-         "linkedInUrl": "https://www.linkedin.com/in/saksham-verma-a9390b256/ "
-      },
-      {
-         "name": "Garima Gupta",
-         "imageUrl": "/garima.jpg",
-         "linkedInUrl": " https://www.linkedin.com/in/garima-gupta-724213253/ "
+         "name": "Rudra Pratap Dash",
+         "imageUrl": "/rudra.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267 "
       }
    ]
 }

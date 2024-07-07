@@ -1,6 +1,4 @@
 import "./About.css";
-import logo from "../images/GR_Logo-2.png";
-import Sphere from "../component/BGSphere";
 
 function AboutSection() {
   return (

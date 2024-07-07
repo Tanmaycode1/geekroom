@@ -3,8 +3,60 @@ import "./Event.css";
 import eventdata from "./eventData.json";
 import hackathondata from "./hackathon.json";
 import arnav from "../images/img10.JPG";
+const parseDate = (dateStr) => {
+  const parts = dateStr.replace('.', '').split(' ');
+  const day = parseInt(parts[0], 10);
+  const month = parts[1];
+  const year = parseInt(parts[2], 10);
+
+  const months = {
+    January: 0,
+    February: 1,
+    March: 2,
+    April: 3,
+    May: 4,
+    June: 5,
+    July: 6,
+    August: 7,
+    September: 8,
+    October: 9,
+    November: 10,
+    December: 11
+  };
+
+  if (parts.length === 3) {
+    // Format: "1 February 2024"
+    return new Date(year, months[month], day);
+  } else if (parts.length === 5) {
+    // Format: "31 January - 1 February 2024"
+    const endDay = parseInt(parts[2], 10);
+    const endDate = new Date(year, months[parts[4]], endDay);
+    return endDate;
+  }
+
+  // Default return
+  return new Date();
+};
+
 
 export default function Event() {
+  
+  const sortedEventData = [...eventdata].sort((a, b) => {
+    const dateComparison = parseDate(b.date) - parseDate(a.date);  // Compare dates
+    if (dateComparison === 0) {
+      return a.id - b.id;  // If dates are the same, compare IDs
+    }
+    return dateComparison;  // Otherwise, sort by dates
+  });
+  const sortedhackathon=[...hackathondata].sort((a,b)=>{
+    const date_comparision=parseDate(b.date)-parseDate(a.date);
+    if(date_comparision===0){
+      return a.id-b.id;
+    }
+    return date_comparision;
+  })
+
+
   return (
     <>
       <div className="heading event">Events</div>
@@ -17,7 +69,8 @@ export default function Event() {
           <div className="row row-cols-1 row-cols-md-3">
             {" "}
             {/* Use row-cols classes for responsive grid */}
-            {eventdata.map((detail, index) => (
+            {sortedEventData.map((detail, index) => (
+              
               <div className="col-md-4 col-12" key={index}>
                 {" "}
                 {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}
@@ -54,7 +107,7 @@ export default function Event() {
           <div className="row row-cols-1 row-cols-md-3">
             {" "}
             {/* Use row-cols classes for responsive grid */}
-            {hackathondata.map((detail, index) => (
+            {sortedhackathon.map((detail, index) => (
               <div className="col-md-4 col-12" key={index}>
                 {" "}
                 {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}

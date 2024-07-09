@@ -3,7 +3,7 @@
     "id": 1,
     "eventName": "Geek Insights",
     "date": "1 February 2024",
-    "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains and their scope in the field of technology..",
+    "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains.",
     "image_url": "img69.png"
   },
   {
@@ -29,7 +29,7 @@
     "id": 4,
     "eventName": "Hackathon 101",
     "date": "9 December 2023",
-    "description": "An informative session on the Beginner's Guide to Hackathons was held on 9 December 2023. The session was conducted by the Geek Room core which boast of many members of hackathon winning teams.",
+    "description": "An informative session on the Beginner's Guide to Hackathons was held on 9 December 2023. The session was conducted by the Geek Room core.",
     "image_url": "101.jpg"
   },
 

@@ -52,7 +52,7 @@ const DarkBackground = () => {
                 
               />
               <div className="feature">
-                <b className="k"><IncreasingNumber stoppingNumber={15} speed={500} />+</b>
+                <b className="k"><IncreasingNumber stoppingNumber={20} speed={500} />+</b>
                 <div className="team-members">
                   <p className="events">Events</p>
                   <p className="organized">Organized</p>
@@ -63,7 +63,7 @@ const DarkBackground = () => {
                 
               />
               <div className="feature">
-                <b className="k"><IncreasingNumber stoppingNumber={200} speed={25} />+</b>
+                <b className="k"><IncreasingNumber stoppingNumber={250} speed={25} />+</b>
                 <div className="team-members">
                   <p className="team">Team</p>
                   <p className="members">Members</p>

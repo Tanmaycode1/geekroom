@@ -84,6 +84,7 @@
     justify-content: flex-start;
   }
   .nav-item-parent {
+    width: 500px;
     align-self: stretch;
     flex-direction: row;
     gap: 0 32px;

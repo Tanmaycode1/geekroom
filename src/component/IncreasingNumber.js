@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './IncreasingNumber.css'; // Import CSS file for styling
 
-const IncreasingNumber = ({ stoppingNumber,  speed }) => {
-  const [number, setNumber] = useState(0);
+const IncreasingNumber = ({ stoppingNumber, speed }) => {
+  const [number, setNumber] = useState(stoppingNumber > 5000 ? 3500 : 0);
 
   // Function to increment the number
   const incrementNumber = () => {
@@ -22,7 +22,7 @@ const IncreasingNumber = ({ stoppingNumber,  speed }) => {
   }, [speed]);
 
   return (
-    <div >
+    <div>
       {number}
     </div>
   );

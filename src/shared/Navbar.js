@@ -25,8 +25,7 @@ const Navbar = () => {
       />
       <div className="parent-frame">
         <div className="nav-item-parent">
-
-        <div className="burger-menu" onClick={toggleSideDrawer}>
+          <div className="burger-menu" onClick={toggleSideDrawer}>
             <div className="burger-line"></div>
             <div className="burger-line"></div>
             <div className="burger-line"></div>
@@ -91,6 +90,16 @@ const Navbar = () => {
             </NavLink>
             <div className={activeNavLink === "team" ? "underline" : ""} />
           </div>
+          <div className="nav-item4">
+            <a
+              href="mailto:example@example.com"
+              className="home" 
+              onClick={() => handleNavLinkClick("sponsor")}
+            >
+              SPONSOR / COLLABORATE
+            </a>
+            <div className={activeNavLink === "sponsor" ? "underline" : ""} />
+          </div>
         </div>
       </div>
 
@@ -108,16 +117,12 @@ const Navbar = () => {
           </NavLink>
           {/* <NavLink exact to="/achievement" onClick={() => handleNavLinkClick("achievement")}>
             ACHIEVEMENT
-          </NavLink>
-          <NavLink exact to="/contact" onClick={() => handleNavLinkClick("contact")}>
-            CONTACT
           </NavLink> */}
           <NavLink exact to="/team" onClick={() => handleNavLinkClick("team")}>
             TEAM
           </NavLink>
         </div>
       </div>
-
     </header>
   );
 };

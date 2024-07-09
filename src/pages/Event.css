@@ -174,3 +174,29 @@ body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+.card-body{
+  max-height: 1000px;
+  height: 100%;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button1, .button2 {
+  flex: 1;
+  margin: 0 5px;
+  color:white;
+}
+
+.button1 {
+  margin-right: 10px;
+}
+
+.button2 {
+  color: white;
+  margin-left: 10px;
+}

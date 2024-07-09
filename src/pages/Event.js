@@ -2,7 +2,7 @@ import React from "react";
 import "./Event.css";
 import eventdata from "./eventData.json";
 import hackathondata from "./hackathon.json";
-import arnav from "../images/img10.JPG";
+
 const parseDate = (dateStr) => {
   const parts = dateStr.replace('.', '').split(' ');
   const day = parseInt(parts[0], 10);
@@ -25,37 +25,32 @@ const parseDate = (dateStr) => {
   };
 
   if (parts.length === 3) {
-    // Format: "1 February 2024"
     return new Date(year, months[month], day);
   } else if (parts.length === 5) {
-    // Format: "31 January - 1 February 2024"
     const endDay = parseInt(parts[2], 10);
     const endDate = new Date(year, months[parts[4]], endDay);
     return endDate;
   }
 
-  // Default return
   return new Date();
 };
 
-
 export default function Event() {
-  
   const sortedEventData = [...eventdata].sort((a, b) => {
-    const dateComparison = parseDate(b.date) - parseDate(a.date);  // Compare dates
+    const dateComparison = parseDate(b.date) - parseDate(a.date);
     if (dateComparison === 0) {
-      return a.id - b.id;  // If dates are the same, compare IDs
+      return a.id - b.id;
     }
-    return dateComparison;  // Otherwise, sort by dates
+    return dateComparison;
   });
-  const sortedhackathon=[...hackathondata].sort((a,b)=>{
-    const date_comparision=parseDate(b.date)-parseDate(a.date);
-    if(date_comparision===0){
-      return a.id-b.id;
+
+  const sortedhackathon = [...hackathondata].sort((a, b) => {
+    const date_comparision = parseDate(b.date) - parseDate(a.date);
+    if (date_comparision === 0) {
+      return a.id - b.id;
     }
     return date_comparision;
-  })
-
+  });
 
   return (
     <>
@@ -67,13 +62,8 @@ export default function Event() {
       <div className="container">
         <div className="card">
           <div className="row row-cols-1 row-cols-md-3">
-            {" "}
-            {/* Use row-cols classes for responsive grid */}
             {sortedEventData.map((detail, index) => (
-              
               <div className="col-md-4 col-12" key={index}>
-                {" "}
-                {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}
                 <div className="grid grid-col-5">
                   <div className="card-body col-span-4">
                     <div style={{ height: "200px", overflow: "hidden" }}>
@@ -84,11 +74,12 @@ export default function Event() {
                       />
                     </div>
                     <p className="card-date text-danger">{detail.date}</p>
-                    <h5 className="card-title text-white">
-                      {detail.eventName}
-                    </h5>
+                    <h5 className="card-title text-white">{detail.eventName}</h5>
                     <p className="card-text text-white">{detail.description}</p>
-                    {/*---   <a href={detail.link} className="btn btn-outline-danger button1" style={{marginTop:'20px'}}>Learn more <i class="fa fa-arrow-right"></i></a>  --*/}
+                    <div className="button-container">
+                      <a href={detail.link1} className="btn btn-outline-danger button2" style={{color:'white'}} target="_blank" rel="noopener noreferrer">Learn More</a>
+                      <a href={detail.link2} className="btn btn-outline-danger button2" target="_blank" style={{color:'white'}} rel="noopener noreferrer">Report</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -105,12 +96,8 @@ export default function Event() {
       <div className="container">
         <div className="card">
           <div className="row row-cols-1 row-cols-md-3">
-            {" "}
-            {/* Use row-cols classes for responsive grid */}
             {sortedhackathon.map((detail, index) => (
               <div className="col-md-4 col-12" key={index}>
-                {" "}
-                {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}
                 <div className="grid grid-col-5">
                   <div className="card-body col-span-4">
                     <div style={{ height: "200px", overflow: "hidden" }}>
@@ -121,11 +108,12 @@ export default function Event() {
                       />
                     </div>
                     <p className="card-date text-danger">{detail.date}</p>
-                    <h5 className="card-title text-white">
-                      {detail.eventName}
-                    </h5>
+                    <h5 className="card-title text-white">{detail.eventName}</h5>
                     <p className="card-text text-white">{detail.description}</p>
-                    {/*---   <a href={detail.link} className="btn btn-outline-danger button1" style={{marginTop:'20px'}}>Learn more <i class="fa fa-arrow-right"></i></a>  --*/}
+                    <div className="button-container">
+                      <a href={detail.link1} className="btn btn-outline-danger button2" style={{color:'white'}} target="_blank" rel="noopener noreferrer">Learn More</a>
+                      <a href={detail.link2} className="btn btn-outline-danger button2" target="_blank" style={{color:'white'}} rel="noopener noreferrer">Report</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -135,17 +123,4 @@ export default function Event() {
       </div>
     </>
   );
-}
-
-{
-  /*--
-{
-  "id": 1,
-  "eventName": "Geek Insights",
-  "date": "1 February 2024.",
-  "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains and their scope in the field of technology..",
-  "image_url": "img1.png",
-  "link": " "
-
-},  */
 }

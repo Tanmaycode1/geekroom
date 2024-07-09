@@ -16,7 +16,7 @@ function MembersPage(){
          <BGSphere width={'500px'} height={'480px'} x={'80%'} y={'50%'} color={'#14494c'}/>
 
          <header className="text-center">
-            <h1>MEMBERS</h1>
+            <h1>TEAM</h1>
             <p>Meet the team who put it all together</p>
          </header>
          <div className="co-founders-wrap">

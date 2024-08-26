@@ -1,0 +1,163 @@
+.FAQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 0;
+
+    .FAQs_Box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(13, 13, 14);
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 1200px;
+        width: 100%;
+        gap: 20px;
+        transition: box-shadow 0.3s ease;
+
+        .FAQ_Heading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            h1{
+                margin: 0;
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+
+    }
+    .FAQs_Box:hover{
+        box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+        0 0 20px #075d6091;
+    }
+        .FAQ_Container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100vh;
+        }
+    
+        .FAQItem {
+            padding: 4px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: transparent;
+        }
+    
+        .FAQQuestion {
+            background-color:rgb(0, 0, 0);
+            border-radius: 8px;
+            width: 100%;
+            padding: 15px 20px;
+            border: none;
+            text-align: left;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+    
+            &:hover:not(.expanded) {
+                background-color: #00ACB4;
+            }
+            
+            &.expanded {
+                background-color: black;
+            }
+    }
+    
+    .FAQAnswer {
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+        height: 0;
+        padding: 0 20px;
+        line-height: 30px;
+    
+        &.open {
+            margin-top: 10px;
+        }
+    }
+}
+/* <----Responsive------>*/
+@media (max-width:600px) {
+
+    .FAQItem {
+            padding: 4px;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        .FAQ_Container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100% !important;
+           
+        }
+        .FAQs_Box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(13, 13, 14);
+            box-shadow:
+                    0 4px 6px rgba(0, 0, 0, 0.1),
+                    0 1px 3px rgba(0, 0, 0, 0.08),
+                    0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+                    0 0 20px #00333591;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+            gap: 20px;
+        }
+        .FAQQuestion {
+            background-color:rgb(0, 0, 0);
+            border-radius: 8px;
+            width: 80%;
+            padding: 15px 20px;
+            border: none;
+            text-align: left;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s ease;
+    
+            &:hover:not(.expanded) {
+                background-color: #00ACB4;
+            }
+            
+            &.expanded {
+                background-color: black;
+            }
+    }
+    .FAQAnswer {
+        overflow: hidden;
+        transition: height 0.3s ease-out;
+        height: 0;
+        padding: 0 20px;
+        line-height: 30px;
+    
+        &.open {
+            margin-top: 10px;
+        }
+    }
+}

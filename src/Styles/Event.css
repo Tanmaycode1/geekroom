@@ -1,0 +1,159 @@
+.event_page {
+  background-color: #1a1a1a;
+  z-index: 2;
+}
+
+.event_heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  padding-top: 2rem;
+  margin-bottom: 10px;
+}
+.event {
+  font-size: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event_subHeading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -2px;
+  padding-bottom: 2rem;
+}
+.event_card {
+  position: relative;
+  width: 26rem;
+  height: auto;
+  aspect-ratio: 16/9;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin: 2rem;
+}
+
+.event_card_container {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  cursor: pointer;
+}
+
+.event_card__image {
+  width: 100%;
+  height: 100%;
+}
+
+.event_card:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 10px #ff774680);
+}
+
+.event_card__content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #000000;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.event_card:hover .event_card__content {
+  transform: rotateX(0deg);
+}
+
+.event_card__title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.event_card__description {
+  margin: 10px 0 10px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.event_card__button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  border-radius: 8px;
+  background: white;
+  border: none;
+  color: black;
+  margin-right: 1rem;
+}
+
+.event_card__button:hover {
+  padding: 15px;
+  border-radius: 8px;
+  background: #f15a22;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.event_secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.ball1,
+.ball2 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  transition: transform 0.2s ease-out;
+}
+.ball1 {
+  width: 18vw;
+  height: 18vw;
+  background-color: rgba(0, 172, 180, 0.3);
+  top: 2vw;
+  left: 26vw;
+}
+.ball2 {
+  width: 10vw;
+  height: 10vw;
+  background-color: #f1592280;
+  top: 2vw;
+  right: 15vw;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

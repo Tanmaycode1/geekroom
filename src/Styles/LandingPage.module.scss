@@ -1,0 +1,111 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 95vh;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    position: relative;
+
+    .content {
+        position: relative;
+        top:100px;
+        z-index: 10;
+    }
+
+    .word {
+        opacity: 0;
+        animation: fadeInUp 0.8s ease-out forwards;
+
+        &:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        &:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+
+        &:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+
+        h1 {
+            color: #FCFBFA;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12vw;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80%;
+            letter-spacing: -0.4vw;
+            margin: 0;
+
+            span {
+                color: #00ACB4;
+            }
+        }
+    }
+
+    .ball1,
+    .ball2 {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(100px);
+        transition: transform 0.2s ease-out;
+    }
+
+    .ball1 {
+        width: 30vw;
+        height: 30vw;
+        background-color: rgba(0, 172, 180, 0.3);
+        top: 20vw;
+        left: 6vw;
+    }
+
+    .ball2 {
+        width: 20vw;
+        height: 20vw;
+        background-color: #f1592280;
+        top: 2vw;
+        right: 15vw;
+    }
+}
+
+@media (max-width:600px) {
+    .landingPage {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50vh;
+        background-color: #1a1a1a;
+        overflow: hidden;
+        position: relative;
+
+        .word h1{
+            color: #FCFBFA;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15vw;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 80%;
+            letter-spacing: -0.4vw;
+            margin: 0;
+
+            span {
+                color: #00ACB4;
+            }
+        }
+
+    }
+}

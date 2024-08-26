@@ -1,0 +1,120 @@
+.Navbar {
+  position: relative; /* Ensure positioning context for z-index */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #1a1a1a; /* Original color */
+  z-index: 999;
+   
+
+  .GeekRoomLogo {
+    display: flex;
+    align-items: center;
+  }
+
+  .Hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    cursor: pointer;
+
+    .Line {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+    }
+  }
+
+  .Navbar_Links {
+    display: flex;
+    align-items: center;
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-left: 1rem;
+        z-index: 1; 
+        
+        a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+
+          &:hover {
+            color: #ddd; 
+          }
+        }
+        span {
+          font-size: 20px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+
+          &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background: linear-gradient(to right, #F15A22, #00ACB4);
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease-out;
+          }
+
+          &:hover::after,
+          &.active::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+
+          &.active {
+            color: #3aeff8; 
+          }
+        }
+
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .Hamburger {
+      display: flex;
+    }
+
+    .Navbar_Links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #1a1a1a; /* Match the original navbar color */
+      width: 100%;
+      height: 100vh;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      z-index: 10; /* Ensure the entire menu is above other content */
+
+      ul {
+        flex-direction: column;
+
+        li {
+          margin: 1rem 0;
+        }
+      }
+
+      &.show {
+        display: flex;
+      }
+    }
+  }
+}

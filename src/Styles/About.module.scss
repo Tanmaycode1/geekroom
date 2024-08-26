@@ -1,0 +1,157 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1a1a1a;
+
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+
+        h2{
+            font-size: 4rem;
+        }
+
+       .aboutContent{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           gap: 30px;
+           padding: 8px;
+
+           img{
+               border-radius: 6px;
+               width: 900px;
+               height: auto;
+               transition: filter 0.3s ease;
+
+               &:hover{
+               filter: drop-shadow(0px 1px 8px #37f5ff63);
+               }
+           }
+
+           .aboutContentText{
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
+
+                h2.aboutHeadingUnderline {
+                        position: relative;
+                        display: inline-block;
+                
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            left: 280px;
+                            bottom: -10px; 
+                            width: 265px;
+                            height: 4px; 
+                            background-color: #F15A22;
+                            border-radius: 100% 100% 100% 0; 
+                            transform: skew(12deg); 
+                        }
+                    }
+               p{
+                   line-height: 25px;
+                   margin: 0;
+                   word-break: break-word;
+               }
+           }
+       }
+  } 
+}
+
+.groupPhoto{
+    border-radius: 8px;
+    transition: filter 0.3s ease-in;
+
+    &:hover{
+    filter: drop-shadow(0px 1px 12px #37f5ff63);
+    }
+}
+@media (max-width:600px) {
+    .About{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #1a1a1a;
+    
+        .aboutContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            max-width: 600px;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+    
+            h2{
+                font-size: 4rem;
+            }
+    
+           .aboutContent{
+               display: flex;
+               flex-direction: column-reverse;
+               justify-content: space-between;
+               align-items: center;
+               gap: 30px;
+               padding: 8px;
+    
+               img{
+                   border-radius: 6px;
+                   width: 100% !important;
+                   height: auto;
+                   transition: filter 0.3s ease;
+    
+                   &:hover{
+                   filter: drop-shadow(0px 1px 8px #37f5ff63);
+                   }
+               }
+    
+               .aboutContentText{
+                   display: flex;
+                   flex-direction: column;
+                   gap: 20px;
+    
+                    h2.aboutHeadingUnderline {
+                      
+                            position: relative;
+                            display: inline-block;
+                    
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                left: 0px;
+                                bottom: -10px; 
+                                width: 265px;
+                                height: 4px; 
+                                background-color: #F15A22;
+                                border-radius: 100% 100% 100% 0; 
+                                transform: skew(12deg); 
+                            }
+                        }
+                   p{
+                       line-height: 25px;
+                       margin: 0;
+                       word-break: break-word;
+                   }
+               }
+           }
+      } 
+    }
+}

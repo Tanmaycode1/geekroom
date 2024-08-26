@@ -1,0 +1,136 @@
+.Locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    .LocationsHeading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    h1 {
+        color: #58f7ff;
+        margin: 0;
+    }
+    
+    p{
+      color: #fff;
+      margin: 0;
+    }
+  }
+
+    .collegeGrid {
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .collegeItem {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: rgb(13, 13, 14);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 0 20px rgba(0, 51, 53, 1);
+        
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+
+        p {
+            text-align: center;
+            color: #fff;
+            margin: 0;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .Locations {
+        .collegeGrid {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+        .collegeItem {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgb(13, 13, 14);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(255, 255, 255, 0.1) inset, 0 0 20px rgba(0, 51, 53, 0.568627451);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            }
+    
+            img {
+                width: 100px;
+                height: 100px;
+                object-fit: contain;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                text-align: center;
+                color: #fff;
+                margin: 0;
+            }
+        }
+    }
+    .Locations {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 80px 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        .LocationsHeading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+    
+        h1 {
+            color: #58f7ff;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        
+        p{
+          color: #fff;
+          margin: 0;
+          text-align: center;
+        }
+      }
+    }
+    
+}

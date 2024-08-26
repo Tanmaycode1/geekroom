@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "eventName": "Code Cubicle",
+    "date": "15-19 May 2024",
+    "description": "Code Cubicle, hosted by Geek Room, was a dynamic hackathon held online from May 15th and offline on May 19th, 2024, at Eccosphere Coworking, Noida.",
+    "image_url": "CodeCubicle1.0.jpg",
+    "link": "https://code-kshetra.devfolio.co/"
+  },
+  {
+    "id": 2,
+    "eventName": "Code Cubicle 2.0",
+    "date": "15-19 May 2024",
+    "description": "Code Cubicle, hosted by Geek Room, was a dynamic hackathon held online from May 15th and offline on May 19th, 2024, at Eccosphere Coworking, Noida.",
+    "image_url": "CodeCubicle2.jpg"
+  },
+  {
+    "id": 3,
+    "eventName": "Code Kshetra",
+    "date": "5-6 February 2024.",
+    "description": "An enthralling hackathon with over 3000+ nation-wide participants , Code Kshetra was organised jointly by Geek Room and Jims Sec-5 , Rohini from ",
+    "image_url": "Code_Khsetra.jpg",
+    "link": "https://code-kshetra.devfolio.co/"
+  },
+  {
+    "id": 4,
+    "eventName": "Techminds",
+    "date": "15-16 March 2024",
+    "description": "An exhuberant hackathon with a massive 5,00,000+ prizepool , Techminds Hackathon was jointly conducted by Geek Room and IITM , Janakpuri from .",
+    "image_url": "TechMinds.jpg"
+  },
+  {
+    "id": 5,
+    "eventName": "Hackavensis",
+    "date": "1 February 2024",
+    "description": "A 48-hour hackathon organised by Geek Room with over 300+ participants from 31 January - 1 February 2024 during the annual technical fest of MSIT 'Avensis'.",
+    "image_url": "HackAvensis_24.jpg"
+  }
+]

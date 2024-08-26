@@ -1,0 +1,212 @@
+.contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0 20px 0;
+
+    
+    .contactFormContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactFormHeading {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        margin-bottom: 10px;
+
+        h2 {
+            font-size: 2.5rem;
+            color: #58f7ff;
+            margin: 0;
+        }
+
+        p.aboutHeadingUnderline {
+             position: relative;
+             display: inline-block;
+     
+            &::after {
+              content: '';
+              position: absolute;
+              right: 0px;
+              bottom: -15px;
+              width: 315px;
+              height: 5px;
+              background-color: #F15A22;
+              border-radius: 100% 100% 100% 0;
+              transform: skew(12deg);
+            }
+        }
+}
+
+    .contactform {
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .inputGroup {
+                position: relative;
+
+                input,
+                textarea {
+                    width: 500px;
+                    padding: 10px;
+                    font-size: 1rem;
+                    color: #fff;
+                    border: none;
+                    border-bottom: 1px solid #ddd;
+                    outline: none;
+                    background-color: transparent;
+                    transition: border-color 0.3s;
+
+                    &:focus {
+                        border-color: #58f7ff;
+                    }
+
+                    &:focus+label,
+                    &:valid+label {
+                        top: -20px;
+                        font-size: 0.8rem;
+                        color: #58f7ff;
+                    }
+                }
+
+                label {
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    font-size: 1rem;
+                    color: #999;
+                    pointer-events: none;
+                    transition: 0.3s ease all;
+                }
+            }
+
+            button {
+                align-self: flex-start;
+                padding: 12px 30px;
+                font-size: 1rem;
+                color: #fff;
+                background-color: #F15A22;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #95300c;
+                }
+            }
+        }
+    }
+
+    .contactFormImage {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 400px;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .contactFormContainer {
+        flex-direction: column;
+        padding: 40px 10px;
+
+        .contactFormContent,
+        .contactFormImage {
+            max-width: 100%;
+        }
+        .contactFormContent {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+    
+
+        .contactFormImage {
+            margin-top: 40px;
+        }
+        .contactform {
+            form {
+                width: 110% !important;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                margin-right: 100px;
+                padding-right: 40px;
+                gap: 30px;
+    
+                .inputGroup {
+                    position: relative;
+    
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 10px;
+                        font-size: 1rem;
+                        color: #fff;
+                        border: none;
+                        border-bottom: 1px solid #ddd;
+                        outline: none;
+                        background-color: transparent;
+                        transition: border-color 0.3s;
+    
+                        &:focus {
+                            border-color: #58f7ff;
+                        }
+    
+                        &:focus+label,
+                        &:valid+label {
+                            top: -20px;
+                            font-size: 0.8rem;
+                            color: #58f7ff;
+                        }
+                    }
+    
+                    label {
+                        position: absolute;
+                        top: 10px;
+                        left: 0;
+                        font-size: 1rem;
+                        color: #999;
+                        pointer-events: none;
+                        transition: 0.3s ease all;
+                    }
+                }
+    
+                button {
+                    align-self: flex-start;
+                    padding: 12px 30px;
+                    font-size: 1rem;
+                    color: #fff;
+                    background-color: #F15A22;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s;
+    
+                    &:hover {
+                        background-color: #95300c;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

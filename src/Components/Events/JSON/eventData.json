@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "eventName": "Geek Insights",
+    "date": "1 February 2024",
+    "description": "Geek Insights was organised by Geek Room on 19 April 2024 to enlighten beginner tech enthusiasts about the various tech domains.",
+    "image_url": "GeekInsights.png"
+  },
+  {
+    "id": 2,
+    "eventName": "Algohunt",
+    "date": " 1 February 2024",
+    "description": "A treasure hunt-styled competitive problem solving event , Algohunt was jointly organised by Geek Room and IEEE MSIT on  ",
+    "image_url": "AlgoHunt.jpg"
+  },
+
+  {
+    "id": 3,
+    "eventName": "Cupid AI",
+    "date": "31 January 2024",
+    "description": "A fun event with an AI-based blind dating model and concept , Cupid AI was conducted by Geek Room from  during 'Avensis'.",
+    "image_url": "Cupid_AI.jpg"
+  },
+
+  {
+    "id": 4,
+    "eventName": "Hackathon 101",
+    "date": "9 December 2023",
+    "description": "An informative session on the Beginner's Guide to Hackathons was held on 9 December 2023. The session was conducted by the Geek Room core.",
+    "image_url": "Hackathon_101.jpg"
+  },
+
+  {
+    "id": 5,
+    "eventName": "ESP Camp Rover Design ",
+    "date": "24 November 2023",
+    "description": "An informational event regarding rover design , ESP Camp Rover Design was organized jointly by E-Yantra  Geek Room and IEEE RAS MSIT .",
+    "image_url": "E_Yantra.jpg"
+  }
+]

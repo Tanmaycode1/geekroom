@@ -60,17 +60,17 @@ const CounterCardContainer: React.FC = () => {
       <CounterCard 
         finalNumber={8} 
         label="Active Members" 
-        iconSrc="/images/CounterCard1.svg"
+        iconSrc="/Images/CounterCard1.svg"
       />
       <CounterCard 
         finalNumber={20} 
         label="Events Organized" 
-        iconSrc="/images/CounterCard2.svg"
+        iconSrc="/Images/CounterCard2.svg"
       />
       <CounterCard 
         finalNumber={250} 
         label="Team Members" 
-        iconSrc="/images/CounterCard3.svg"
+        iconSrc="/Images/CounterCard3.svg"
       />
     </div>
   );

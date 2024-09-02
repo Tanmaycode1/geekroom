@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '@/Styles/ContactForm.module.scss';
 import Image from 'next/image';
-import Contact_Animation from '../../../public/Images/Contact_Animation2.gif'
+import Contact_Image from '../../../public/Images/contactUsImage.jpg'
 
 const ContactForm = () => {
   return (
@@ -29,7 +29,7 @@ const ContactForm = () => {
           </form>
         </div>
          <div className={styles.contactFormImage}>
-        <Image src={Contact_Animation} alt='Contact' priority />
+        <Image src={Contact_Image} alt='Contact' priority />
       </div>
       </div>
     </div>

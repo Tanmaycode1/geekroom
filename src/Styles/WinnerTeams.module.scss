@@ -1,0 +1,74 @@
+
+.winnerTeams{
+    padding: 20px;
+    margin: 0 auto;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    
+        .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        gap: 4px;
+
+        p{
+            color: #00ACB4;
+            font-style: italic;
+        }
+        }
+    
+        .winnerGrid{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+
+            .winnerCard{
+                display: flex;
+                gap: 20px;
+                max-width: 800px;
+                width: 100%;
+                background-color: rgb(13, 13, 14);
+                transition: box-shadow 0.3s ease;
+                border-radius: 4px;
+                padding: 22px;
+
+                &:hover {
+                    box-shadow:
+                        0 4px 6px rgba(0, 0, 0, 0.1),
+                        0 1px 3px rgba(0, 0, 0, 0.08),
+                        0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+                        0 0 20px #075d6091;
+                }
+
+                .winnerMedal{
+                    padding: 0 30px;
+                    border-right: 1px solid rgba(192, 192, 192, 0.496);
+                }
+
+                .winnerDetails{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap:8px;
+
+                    h6{
+                        font-style: italic;
+                        font-weight: normal;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

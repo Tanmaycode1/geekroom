@@ -1,47 +1,37 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import hackathondata from "./JSON/hackathon.json";
-import "../../Styles/Event.css";
+import styles from '@/Styles/Event.module.scss';
 
 const Hackathons = () => {
   return (
-     <div className="event_page">
-        <div className="event_heading event">Hackathons</div>
-        <div className="event_subHeading">
-          <p>&quot;Embrace Innovation, Collaborate and Celebrate&quot;</p>
-        </div>
+    <div className={styles.event_page}>
+      <div className={`${styles.event_heading} ${styles.event}`}>Hackathons</div>
+      <div className={styles.event_subHeading}>
+        <p>&quot;Embrace Innovation, Collaborate and Celebrate&quot;</p>
+      </div>
 
-        <div className="event_card_container">
-          {hackathondata.map((detail, index) => (
-            <div className="event_card" key={index}>
-              <Image
-                src={`/Events/${detail.image_url}`}
-                alt={detail.eventName}
-                className="event_card__image"
-                layout="responsive"
-                width={400}
-                height={220}
-                objectFit="contain"
-              />
-              <div className="event_card__content">
-                <div>
-                  <p className="event_card__title">{detail.eventName}</p>
-                  <p className="event_card__description">
-                    {detail.description}
-                  </p>
-                </div>
-                <div>
-                {/*   <button className="event_card__button">Live Demo</button> */}
-                  <button className="event_card__button event_secondary">
-                    {detail.date}
-                  </button>
-                </div>
-              </div>
+      <div className={styles.event_card_container}>
+        {hackathondata.map((detail) => (
+          <div className={styles.event_card} key={detail.id}>
+            <Image
+              src={`${detail.image_url}`}
+              alt={detail.eventName}
+              className={styles.event_card__image}
+              layout="fill"
+              objectFit="cover"
+            />
+            <div className={styles.event_card__overlay}>
+              <Link href={`/Hackathon/${detail.id}`}>
+                <button className={styles.event_card__button}>Learn More</button>
+              </Link>
             </div>
-          ))}
-        </div>
-        </div>
+          </div>
+        ))}
+      </div>
+    </div>
   )
 }
 
-export default Hackathons
+export default Hackathons;

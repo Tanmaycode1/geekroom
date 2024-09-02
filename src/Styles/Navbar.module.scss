@@ -1,10 +1,10 @@
 .Navbar {
-  position: relative; /* Ensure positioning context for z-index */
+  position: relative; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 50px;
-  background-color: #1a1a1a; /* Original color */
+  background-color: #1a1a1a; 
   z-index: 999;
    
 
@@ -44,7 +44,6 @@
         a {
           color: #fff;
           text-decoration: none;
-          font-weight: bold;
 
           &:hover {
             color: #ddd; 
@@ -94,7 +93,7 @@
       position: absolute;
       top: 60px;
       right: 0;
-      background-color: #1a1a1a; /* Match the original navbar color */
+      background-color: #1a1a1a; 
       width: 100%;
       height: 100vh;
       display: none;
@@ -102,7 +101,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      z-index: 10; /* Ensure the entire menu is above other content */
+      z-index: 10; 
 
       ul {
         flex-direction: column;

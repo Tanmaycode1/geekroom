@@ -1,39 +1,277 @@
 [
   {
     "id": 1,
-    "eventName": "Code Cubicle",
-    "date": "15-19 May 2024",
-    "description": "Code Cubicle, hosted by Geek Room, was a dynamic hackathon held online from May 15th and offline on May 19th, 2024, at Eccosphere Coworking, Noida.",
-    "image_url": "CodeCubicle1.0.jpg",
-    "link": "https://code-kshetra.devfolio.co/"
-  },
-  {
-    "id": 2,
     "eventName": "Code Cubicle 2.0",
-    "date": "15-19 May 2024",
-    "description": "Code Cubicle, hosted by Geek Room, was a dynamic hackathon held online from May 15th and offline on May 19th, 2024, at Eccosphere Coworking, Noida.",
-    "image_url": "CodeCubicle2.jpg"
+    "location": "Microsoft Office, Gurugram",
+    "date": " 27th JUL - 3rd AUG, 2024",
+    "description": "oin Code Cubicle 2.0, a unique hackathon hosted by Geek Room, where tech enthusiasts can collaborate, innovate, and transform real-world challenges into solutions. This two-round event kicks off with an online round on 27th July 2024 and concludes with an offline round on 3rd August 2024 at Microsoft Corporation India Private Limited, Gurugram. With a prize pool worth over INR 30,00,000, including cash prizes of INR 40,000+, Code Cubicle 2.0 promises exciting activities like live project presentations, idea pitching sessions, and a fun games round. Participants will enjoy exclusive perks, including free swags, networking with industry experts, and complimentary accommodation and meals.",
+    "bannerImage": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "countdown": {
+      "days": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "images": "/Events/Hackathons/CodeCubicle2/Poster/CodeCubicle2.jpg",
+    "image_url": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "link": "https://code-cubicle.devfolio.co/",
+    "winners": [
+      {
+        "position": "First",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner1.png"
+      },
+      {
+        "position": "Second",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner2.png"
+
+      },
+      {
+        "position": "Third",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner3.png"
+      }
+    ],
+    "details" : [
+      {
+        "number": 1000,
+        "name": "Total Number of Registrations"
+      },
+      {
+        "number": 50, 
+        "name": "Total Number of Teams Participated"
+      },
+      {
+        "number": 30,
+        "name": "Total Number of Mentors"
+      }
+    ]
   },
-  {
+    {
+    "id": 2,
+    "eventName": "Code Cubicle",
+    "location": "Eccosphere Coworking Area, Noida",
+    "date": " 27th JUL - 3rd AUG, 2024",
+    "description": "Dive into Code Cubicle, an extraordinary hackathon by Geek Room, designed to foster innovation and creativity in technology-driven solutions. The event kicks off with an online round on 15th May 2024 and culminates in an offline round on 19th May 2024 at Eccosphere Coworking Pvt Ltd, Noida. With a prize pool worth over INR 20,00,000, including cash prizes of INR 10,000+, Code Cubicle offers engaging activities like live project presentations, idea pitching sessions, and a fun games round. Participants can enjoy exclusive perks such as free swags, networking with industry experts, and complimentary accommodation and meals.",
+    "bannerImage": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "countdown": {
+      "days": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "images": "/Events/Hackathons/CodeCubicle1/Poster/CodeCubicle.jpg",
+    "image_url": "/Events/Hackathons/CodeCubicle1/Poster/CodeCubicle.jpg",
+    "link": "https://code-cubicle.devfolio.co/",
+    "winners": [
+      {
+        "position": "First",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner1.png"
+      },
+      {
+        "position": "Second",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner2.png"
+
+      },
+      {
+        "position": "Third",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner3.png"
+      }
+    ],
+    "details" : [
+      {
+        "number": 1000,
+        "name": "Total Number of Registrations"
+      },
+      {
+        "number": 50, 
+        "name": "Total Number of Teams Participated"
+      },
+      {
+        "number": 30,
+        "name": "Total Number of Mentors"
+      }
+    ]
+  },
+    {
     "id": 3,
     "eventName": "Code Kshetra",
-    "date": "5-6 February 2024.",
-    "description": "An enthralling hackathon with over 3000+ nation-wide participants , Code Kshetra was organised jointly by Geek Room and Jims Sec-5 , Rohini from ",
-    "image_url": "Code_Khsetra.jpg",
-    "link": "https://code-kshetra.devfolio.co/"
+    "location": "Jagan Institute of Management Studies, Rohini",
+    "date": " 5th FEB - 6th FEB, 2024",
+    "description": "Code Kshetra transcends the conventional hackathon, celebrating the union of innovation and technology. It challenges participants to push their boundaries, fostering inventive solutions to real-world issues. Hosted by the collaborative efforts of JIMS Sector-5 Rohini and Geek Room, this event is a platform for tech enthusiasts to showcase their skills and amplify their potential. With an exciting blend of competition, learning, and groundbreaking innovation, Code Kshetra is a must-attend for those passionate about tech and innovation. Don't miss out on this opportunity to learn, compete, and connect with like-minded individuals and industry experts. Save the date for Code Kshetra, where innovation takes centre stage!",
+    "bannerImage": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "countdown": {
+      "days": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "images": "/Events/Hackathons/CodeKshetra/Poster/CodeKshetra.jpg",
+    "image_url": "/Events/Hackathons/CodeKshetra/Poster/CodeKshetra.jpg",
+    "link": "https://code-kshetra.devfolio.co/",
+    "winners": [
+      {
+        "position": "First",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner1.png"
+      },
+      {
+        "position": "Second",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner2.png"
+
+      },
+      {
+        "position": "Third",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner3.png"
+      }
+    ],
+    "details" : [
+      {
+        "number": 1000,
+        "name": "Total Number of Registrations"
+      },
+      {
+        "number": 50, 
+        "name": "Total Number of Teams Participated"
+      },
+      {
+        "number": 30,
+        "name": "Total Number of Mentors"
+      }
+    ]
   },
-  {
+    {
     "id": 4,
-    "eventName": "Techminds",
-    "date": "15-16 March 2024",
-    "description": "An exhuberant hackathon with a massive 5,00,000+ prizepool , Techminds Hackathon was jointly conducted by Geek Room and IITM , Janakpuri from .",
-    "image_url": "TechMinds.jpg"
+    "eventName": "Tech Minds",
+    "location": "Institute of Information Technology & Management, Janakpuri",
+    "date": " 15th MAR - 16th MAR, 2024",
+    "description": "Join TechMinds, an exhilarating hackathon co-organized by Geek Room and the Artificial Intelligence Experience Centre, IITM Janakpuri. This event invites tech enthusiasts and innovators to push the boundaries of creativity and technology. Scheduled for 15th and 16th March 2024, this 30-hour offline event in Delhi will feature live project presentations, idea pitching sessions, and judging by an esteemed panel. Participants will explore cutting-edge themes like Machine Learning, Blockchain, Cybersecurity, Med Tech, IoT, and more.  The event promises exclusive networking opportunities with industry experts and fosters an inclusive, collaborative environment.",
+    "bannerImage": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "countdown": {
+      "days": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "images": "/Events/Hackathons/TechMinds/Poster/TechMinds.heic",
+    "image_url": "/Events/Hackathons/TechMinds/Poster/TechMinds.heic",
+    "link": "https://techminds.devfolio.co/",
+    "winners": [
+      {
+        "position": "First",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner1.png"
+      },
+      {
+        "position": "Second",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner2.png"
+
+      },
+      {
+        "position": "Third",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner3.png"
+      }
+    ],
+    "details" : [
+      {
+        "number": 1000,
+        "name": "Total Number of Registrations"
+      },
+      {
+        "number": 50, 
+        "name": "Total Number of Teams Participated"
+      },
+      {
+        "number": 30,
+        "name": "Total Number of Mentors"
+      }
+    ]
   },
-  {
+    {
     "id": 5,
-    "eventName": "Hackavensis",
-    "date": "1 February 2024",
-    "description": "A 48-hour hackathon organised by Geek Room with over 300+ participants from 31 January - 1 February 2024 during the annual technical fest of MSIT 'Avensis'.",
-    "image_url": "HackAvensis_24.jpg"
+    "eventName": "HackAvensis",
+    "location": "Maharaja Surajmal Institute of Technology",
+    "date": " 31st JAN - 1st FEB, 2023",
+    "description": "Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems. This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS. Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!",
+    "bannerImage": "/Events/Hackathons/CodeCubicle1/demo.jpg",
+    "countdown": {
+      "days": 0,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
+    "images": "/Events/Hackathons/HackAvensis/Poster/HackAvensis.heic",
+    "image_url": "/Events/Hackathons/HackAvensis/Poster/HackAvensis.heic",
+    "link": "https://unstop.com/hackathons/hackavensis-2024-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-881791",
+    "winners": [
+      {
+        "position": "First",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner1.png"
+      },
+      {
+        "position": "Second",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner2.png"
+
+      },
+      {
+        "position": "Third",
+        "teamName": "TEAM NAME",
+        "project": "PROJECT NAME",
+        "members": ["Member name", "Member name", "Member name"],
+        "medal": "/Images/Winner3.png"
+      }
+    ],
+    "details" : [
+      {
+        "number": 1000,
+        "name": "Total Number of Registrations"
+      },
+      {
+        "number": 50, 
+        "name": "Total Number of Teams Participated"
+      },
+      {
+        "number": 30,
+        "name": "Total Number of Mentors"
+      }
+    ]
   }
 ]

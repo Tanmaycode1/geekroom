@@ -1,5 +1,5 @@
-// components/OurWork.tsx
 import React from 'react';
+import Image from 'next/image';
 import styles from '@/Styles/OurWork.module.scss';
 
 interface WorkBoxProps {
@@ -9,7 +9,7 @@ interface WorkBoxProps {
 
 const WorkBox: React.FC<WorkBoxProps> = ({ title, icon }) => (
   <div className={styles.workBox}>
-    <img src={icon} alt={title} className={styles.icon} />
+    <Image src={icon} alt={title} className={styles.icon} />
     <h3 className={styles.title}>{title}</h3>
   </div>
 );

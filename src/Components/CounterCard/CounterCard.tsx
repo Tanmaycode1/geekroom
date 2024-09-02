@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import styles from '@/Styles/CounterCard.module.scss';
@@ -13,7 +13,7 @@ interface CounterCardProps {
 const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, duration }) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
-  const cardRef = useRef(null);
+  const cardRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -24,9 +24,11 @@ const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, 
       },
       { threshold: 0.1 }
     );
+
     if (cardRef.current) {
       observer.observe(cardRef.current);
     }
+
     return () => {
       if (cardRef.current) {
         observer.unobserve(cardRef.current);
@@ -38,7 +40,7 @@ const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, 
     if (isVisible && count < finalNumber) {
       const increment = finalNumber / (duration / 50);
       const timer = setTimeout(() => {
-        setCount(prevCount => Math.min(prevCount + increment, finalNumber));
+        setCount((prevCount) => Math.min(prevCount + increment, finalNumber));
       }, 50);
       return () => clearTimeout(timer);
     }
@@ -59,8 +61,11 @@ const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, 
 };
 
 interface HackathonDetail {
-  number: number;
-  name: string;
+  number?: number;
+  name?: string;
+  finalNumber?: number;
+  label?: string;
+  iconSrc?: string;
 }
 
 interface CounterCardContainerProps {
@@ -76,16 +81,25 @@ const CounterCardContainer: React.FC<CounterCardContainerProps> = ({ hackathonDe
     { finalNumber: 250, label: "Team Members", iconSrc: "/images/CounterCard3.svg" }
   ];
 
-  const counters = hackathonDetails || defaultCounters;
+  // Merge details provided in props with default counters
+  const counters = (hackathonDetails ?? []).map((counter, index) => {
+    return {
+      finalNumber: counter.finalNumber ?? counter.number ?? defaultCounters[index]?.finalNumber ?? 0,
+      label: counter.label ?? counter.name ?? defaultCounters[index]?.label ?? '',
+      iconSrc: counter.iconSrc ?? defaultCounters[index]?.iconSrc ?? '',
+    };
+  });
+
+  const finalCounters = counters.length > 0 ? counters : defaultCounters;
 
   return (
     <div className={styles.container}>
-      {counters.map((counter, index) => (
-        <CounterCard 
+      {finalCounters.map((counter, index) => (
+        <CounterCard
           key={index}
-          finalNumber={counter.number || counter.finalNumber}
-          label={counter.name || counter.label}
-          iconSrc={counter.iconSrc || `/images/CounterCard${index + 1}.svg`}
+          finalNumber={counter.finalNumber}
+          label={counter.label}
+          iconSrc={counter.iconSrc}
           duration={duration}
         />
       ))}

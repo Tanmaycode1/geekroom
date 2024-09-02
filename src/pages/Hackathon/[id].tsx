@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
+import Head from 'next/head';
 import hackathonData from '@/Components/Events/JSON/hackathon.json';
 import styles from '@/Styles/HackathonDetail.module.scss';
 import Navbar from '@/Components/Navbar/Navbar';
@@ -20,6 +21,11 @@ const HackathonDetail = () => {
 
   return (
     <>
+      <Head>
+        <title>Geek Room | {hackathon.eventName}</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/Favicon.svg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/Favicon.svg" />
+      </Head>
       <Navbar />
       <div className={styles.hackathonDetail}>
         <div className={styles.hero}>

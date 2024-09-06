@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import styles from '@/styles/Testimonials.module.scss';
+import styles from '@/styles/testimonials.module.scss';
 
 const testimonials = [
   {

@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
-import styles from '@/Styles/LandingPage.module.scss';
+import styles from '@/Styles/landingPage.module.scss';
 
 const LandingPage = () => {
   const landingPageRef = useRef<HTMLDivElement>(null);

@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
-import Events from './Events'
-import Hackathons from './Hackathons'
+import Events from './events'
+import Hackathons from './hackathons'
 import GalleryBanner from '../GalleryBanner/GalleryBanner';
-import  styles  from '@/styles/Event.module.scss';
+import  styles  from '@/styles/event.module.scss';
 
 const Index = () => {
   const landingPageRef = useRef<HTMLDivElement>(null);

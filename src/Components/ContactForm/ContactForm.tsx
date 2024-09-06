@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/Styles/ContactForm.module.scss';
+import styles from '@/Styles/contactForm.module.scss';
 import Image from 'next/image';
 import Contact_Image from '../../../public/Images/contactUsImage.jpg'
 

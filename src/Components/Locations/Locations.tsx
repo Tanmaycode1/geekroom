@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '@/Styles/Locations.module.scss';
+import styles from '@/Styles/locations.module.scss';
 import Image from 'next/image';
 
 const collegeList = [

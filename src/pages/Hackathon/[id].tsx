@@ -3,11 +3,11 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 import Head from 'next/head';
 import hackathonData from '@/Components/Events/JSON/hackathon.json';
-import styles from '@/Styles/HackathonDetail.module.scss';
+import styles from '@/Styles/hackathonDetail.module.scss';
 import Navbar from '@/Components/Navbar/Navbar';
 import Footer from '@/Components/Footer/Footer';
 import DevfolioLogo from '../../../public/Sponsors/devfolioWhite.png';
-import WinnerTeams from '@/Components/Events/WinnerTeams';  
+import WinnerTeams from '@/Components/Events/winnerTeams';  
 import CounterCardContainer from '@/Components/CounterCard/CounterCard';
 
 const HackathonDetail = () => {

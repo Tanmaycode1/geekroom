@@ -1,5 +1,5 @@
 import React from "react";
-import Index from "@/Components/Events/Index";
+import Index from "@/Components/Events/index";
 
 const page = () => {
   return (

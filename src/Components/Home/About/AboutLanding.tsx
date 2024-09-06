@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
-import styles from '@/Styles/AboutLanding.module.scss';
+import styles from '@/Styles/aboutLanding.module.scss';
 import Image from 'next/image';
 
 interface CardProps {

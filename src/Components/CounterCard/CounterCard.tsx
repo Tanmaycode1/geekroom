@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import styles from '@/Styles/counterCard.module.scss';
+import styles from '@/styles/counterCard.module.scss';
 
 interface CounterCardProps {
   finalNumber: number;

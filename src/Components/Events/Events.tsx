@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import eventdata from "./JSON/eventData.json";
-import styles from "@/Styles/event.module.scss";
+import styles from "@/styles/event.module.scss";
 
 const Events = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import hackathondata from "./JSON/hackathon.json";
-import styles from '@/Styles/event.module.scss';
+import styles from '@/styles/event.module.scss';
 
 const Hackathons = () => {
   return (

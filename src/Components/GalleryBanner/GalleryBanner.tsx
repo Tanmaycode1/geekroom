@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/Styles/galleryBanner.module.scss';
+import styles from '@/styles/galleryBanner.module.scss';
 
 const GalleryBanner = () => {
   return (

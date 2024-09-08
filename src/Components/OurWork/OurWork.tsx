@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '@/Styles/ourWork.module.scss';
+import styles from '@/styles/ourWork.module.scss';
 
 interface WorkBoxProps {
   title: string;

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/Styles/about.module.scss';
+import styles from '@/styles/about.module.scss';
 import Image from 'next/image';
 import About_Animation from '../../../../public/Images/About_Animation.gif';
 import GeekRoomLogo from '../../../../public/Images/GeekRoomLogo.svg';

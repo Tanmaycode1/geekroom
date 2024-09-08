@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react'
-import styles from '@/Styles/faq.module.scss';
+import styles from '@/styles/faq.module.scss';
 import Image from 'next/image';
 import Plus from '../../../../public/Images/plus.svg'
 import Minus from '../../../../public/Images/minus.png'

@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ imageUrl, alt }) => (
   <div className={styles.card}>
-    <Image src={imageUrl} alt={alt} />
+    <Image src={imageUrl} alt={alt} width={200} height={200} />
   </div>
 );
 

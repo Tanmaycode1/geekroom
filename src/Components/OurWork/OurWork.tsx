@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '@/Styles/OurWork.module.scss';
+import styles from '@/Styles/ourWork.module.scss';
 
 interface WorkBoxProps {
   title: string;
@@ -16,10 +16,10 @@ const WorkBox: React.FC<WorkBoxProps> = ({ title, icon }) => (
 
 const OurWork: React.FC = () => {
   const workAreas: WorkBoxProps[] = [
-    { title: 'Quality', icon: 'https://cdn-icons-png.flaticon.com/512/10435/10435120.png' },
-    { title: 'Mentors', icon: 'https://cdn-icons-png.flaticon.com/512/10870/10870228.png' },
-    { title: 'Develop', icon: 'https://cdn-icons-png.flaticon.com/512/3263/3263182.png' },
-    { title: 'Product', icon: 'https://cdn-icons-png.flaticon.com/512/10939/10939134.png' },
+    { title: 'Quality', icon: '' },
+    { title: 'Mentors', icon: '' },
+    { title: 'Develop', icon: '' },
+    { title: 'Product', icon: '' },
   ];
 
   return (

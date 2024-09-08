@@ -9,7 +9,7 @@ interface WorkBoxProps {
 
 const WorkBox: React.FC<WorkBoxProps> = ({ title, icon }) => (
   <div className={styles.workBox}>
-    <Image src={icon} alt={title} className={styles.icon} />
+    <Image src={icon} alt={title} className={styles.icon} width={100} height={200} />
     <h3 className={styles.title}>{title}</h3>
   </div>
 );

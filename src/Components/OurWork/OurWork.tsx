@@ -16,10 +16,10 @@ const WorkBox: React.FC<WorkBoxProps> = ({ title, icon }) => (
 
 const OurWork: React.FC = () => {
   const workAreas: WorkBoxProps[] = [
-    { title: 'Quality', icon: '' },
-    { title: 'Mentors', icon: '' },
-    { title: 'Develop', icon: '' },
-    { title: 'Product', icon: '' },
+    { title: 'Quality', icon: '/Images/quality.png' },
+    { title: 'Mentors', icon: '/Images/mentor.png' },
+    { title: 'Develop', icon: '/Images/develop.png' },
+    { title: 'Product', icon: '/Images/product.png' },
   ];
 
   return (

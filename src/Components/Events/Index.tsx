@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useEffect, useRef } from 'react';
-import Events from './events'
-import Hackathons from './hackathons'
+import Events from './Events'
+import Hackathons from './Hackathons'
 import GalleryBanner from '../GalleryBanner/GalleryBanner';
 import  styles  from '@/styles/event.module.scss';
 

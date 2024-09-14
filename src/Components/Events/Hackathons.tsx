@@ -23,8 +23,8 @@ const Hackathons = () => {
               objectFit="cover"
             />
             <div className={styles.event_card__overlay}>
-              <Link href={`/Hackathon/${detail.id}`}>
-                <button className={styles.event_card__button}>Learn More</button>
+              <Link href={`/Hackathon/${detail.id}`} className={styles.event_card__button}>
+                Learn More
               </Link>
             </div>
           </div>

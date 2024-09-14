@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react'
-import styles from '@/styles/navbar.module.scss'
+import styles from '../../styles/navbar.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'

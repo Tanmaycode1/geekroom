@@ -1,16 +1,17 @@
 "use client";
 import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
-import styles from '@/styles/counterCard.module.scss';
+import styles from '@/styles/counter.module.scss';
 
 interface CounterCardProps {
   finalNumber: number;
   label: string;
   iconSrc: string;
   duration: number;
+  isDefaultCounter: boolean;
 }
 
-const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, duration }) => {
+const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, duration, isDefaultCounter }) => {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -47,7 +48,13 @@ const CounterCard: React.FC<CounterCardProps> = ({ finalNumber, label, iconSrc, 
   }, [count, finalNumber, isVisible, duration]);
 
   const displayNumber = Math.round(count);
-  const formattedNumber = displayNumber >= 1000 ? `${(displayNumber / 1000).toFixed(1)}K` : displayNumber;
+  let formattedNumber: string | number = displayNumber;
+
+  if (isDefaultCounter && finalNumber === 15) {
+    formattedNumber = `${displayNumber}K`;
+  } else if (displayNumber >= 1000) {
+    formattedNumber = `${(displayNumber / 1000).toFixed(1)}K`;
+  }
 
   return (
     <div className={styles.counterCard} ref={cardRef}>
@@ -76,7 +83,7 @@ const CounterCardContainer: React.FC<CounterCardContainerProps> = ({ hackathonDe
   const duration = 2000;
 
   const defaultCounters = [
-    { finalNumber: 10, label: "Active Members", iconSrc: "/images/CounterCard1.svg" },
+    { finalNumber: 15, label: "Active Members", iconSrc: "/images/CounterCard1.svg" },
     { finalNumber: 20, label: "Events Organized", iconSrc: "/images/CounterCard2.svg" },
     { finalNumber: 250, label: "Team Members", iconSrc: "/images/CounterCard3.svg" }
   ];
@@ -101,6 +108,7 @@ const CounterCardContainer: React.FC<CounterCardContainerProps> = ({ hackathonDe
           label={counter.label}
           iconSrc={counter.iconSrc}
           duration={duration}
+          isDefaultCounter={counters.length === 0}
         />
       ))}
     </div>

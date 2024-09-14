@@ -18,34 +18,34 @@
     "winners": [
       {
         "position": "First",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "Study Buddy",
+        "project": "Master new skills, expand your horizons, and achieve your goals",
+        "members": ["K Sree Charan", "Abhishek Kumar", "Sushil Kumar", "Shivani"],
         "medal": "/Images/Winner1.png"
       },
       {
         "position": "Second",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "InquisAI",
+        "project": "AI Interviewer is a cutting-edge platform that automates technical mock interviews",
+        "members": ["Yuvraj Singh", "Sushant Dey"],
         "medal": "/Images/Winner2.png"
 
       },
       {
         "position": "Third",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "We-Safe",
+        "project": "Ditch Danger, Map Smarter",
+        "members": ["Ananya Mangal", "Aryan Sood", "Dhruv Dawar", "Satvik Saksena"],
         "medal": "/Images/Winner3.png"
       }
     ],
     "details" : [
       {
-        "number": 1000,
+        "number": 5921,
         "name": "Total Number of Registrations"
       },
       {
-        "number": 50, 
+        "number": 189, 
         "name": "Total Number of Teams Participated"
       },
       {
@@ -73,34 +73,34 @@
     "winners": [
       {
         "position": "First",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "Holesail",
+        "project": "Peer to Peer tunnels for Instant Access",
+        "members": ["Suryaansh Singh", "Rohan Chaudhary", "Manjeet Aggarwal", "Utkarsh Payal"],
         "medal": "/Images/Winner1.png"
       },
       {
         "position": "Second",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "Chain-Chest",
+        "project": "Where your data finds its secure fortress.",
+        "members": ["Harshit Rai", "Aayushi Jain", "Akash Jain"],
         "medal": "/Images/Winner2.png"
 
       },
       {
         "position": "Third",
-        "teamName": "TEAM NAME",
-        "project": "PROJECT NAME",
-        "members": ["Member name", "Member name", "Member name"],
+        "teamName": "Brand4Consumers",
+        "project": "Empowering Voices, Shaping Choices: Your Reviews, Our Insights",
+        "members": ["Raunak Madan", "Swati", "Suhani", "Kaivalaya Dua"],
         "medal": "/Images/Winner3.png"
       }
     ],
     "details" : [
       {
-        "number": 1000,
+        "number": 2255,
         "name": "Total Number of Registrations"
       },
       {
-        "number": 50, 
+        "number": 118, 
         "name": "Total Number of Teams Participated"
       },
       {
@@ -151,11 +151,11 @@
     ],
     "details" : [
       {
-        "number": 1000,
+        "number": 4154,
         "name": "Total Number of Registrations"
       },
       {
-        "number": 50, 
+        "number": 360, 
         "name": "Total Number of Teams Participated"
       },
       {
@@ -206,11 +206,11 @@
     ],
     "details" : [
       {
-        "number": 1000,
+        "number": 750,
         "name": "Total Number of Registrations"
       },
       {
-        "number": 50, 
+        "number": 53, 
         "name": "Total Number of Teams Participated"
       },
       {
